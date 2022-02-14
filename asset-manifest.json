@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/yuriykolisnyk.github.io/goit-react-hw-08-phonebook/static/css/main.964fdded.css",
+    "main.js": "/yuriykolisnyk.github.io/goit-react-hw-08-phonebook/static/js/main.9facc38e.js",
+    "index.html": "/yuriykolisnyk.github.io/goit-react-hw-08-phonebook/index.html",
+    "main.964fdded.css.map": "/yuriykolisnyk.github.io/goit-react-hw-08-phonebook/static/css/main.964fdded.css.map",
+    "main.9facc38e.js.map": "/yuriykolisnyk.github.io/goit-react-hw-08-phonebook/static/js/main.9facc38e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.964fdded.css",
+    "static/js/main.9facc38e.js"
+  ]
+}
