@@ -10,6 +10,7 @@ import {
   REGISTER,
 } from 'redux-persist';
 import storage from 'redux-persist/lib/storage';
+import logger from 'redux-logger';
 import authSlice from './auth/auth-slice';
 import phonebookReducer from './contacts/contacts-reducer';
 import { contactsApi } from './contacts/contacts-slice';
@@ -20,6 +21,7 @@ const middleware = [
       ignoredActions: [FLUSH, REHYDRATE, PAUSE, PERSIST, PURGE, REGISTER],
     },
   }),
+  logger,
 ];
 
 const authPersistConfig = {
