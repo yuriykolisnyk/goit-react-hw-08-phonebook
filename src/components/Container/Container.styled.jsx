@@ -8,7 +8,7 @@ export const Wrapper = styled.div`
   width: 450px; */
   height: auto;
   text-align: center;
-  max-width: 1440px;
+  max-width: 480px;
   margin-left: auto;
   margin-right: auto;
 `;

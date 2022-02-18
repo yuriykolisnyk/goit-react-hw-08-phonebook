@@ -6,6 +6,7 @@ import { authSelectors } from '../../redux/auth';
 const styles = {
   form: {
     width: 320,
+    margin: 'auto',
   },
   label: {
     display: 'flex',

@@ -22,3 +22,10 @@ ul {
   list-style: none;
   padding: 0;
 }
+
+.Loader {
+  display: flex;
+  height: calc(100vh - 72px);
+  align-items: center;
+  justify-content: center;
+}

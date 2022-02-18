@@ -37,6 +37,7 @@ export const store = configureStore({
     [contactsApi.reducerPath]: contactsApi.reducer,
   },
   middleware,
+  // middleware: getDefaultMiddleware => [...getDefaultMiddleware(), contactsApi.middleware],
   devTools: process.env.NODE_ENV === 'development',
 });
 
